@@ -1,0 +1,21 @@
+.header{
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+    padding-bottom: 10px ;
+    width: 100%;
+}
+.header .whatsapp{
+    padding: 10px 0px;
+    background-color: rgb(0, 0, 126);
+    text-align: center;
+    color: #fff;
+}
+.header .whatsapp a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 60px;
+}
+.header .logo{
+    text-align: center;
+}

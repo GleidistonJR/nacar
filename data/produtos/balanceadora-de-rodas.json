@@ -1,0 +1,10 @@
+{
+    "titulo": "Balanceadora de rodas",
+    "imagem-principal":"imgs/balanceadora-de-rodas.jpg",
+    "categoria-filtro": "balanceador",
+    "codigo": ["2233"],
+    "info": {
+        "img" : "imgs/info/info-balanceadora-de-rodas.png",
+        "modelo": ["NA 520"]
+    }               
+}

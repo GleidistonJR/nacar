@@ -1,0 +1,10 @@
+{
+    "titulo": "Adaptador redutor jumbo macho/femea",
+    "imagem-principal":"imgs/adaptador-redutor-jumbo-macho-femea.jpg",
+    "categoria-filtro": "adaptador",
+    "codigo": ["2109","2213"],
+    "info": {
+        "img" : "",
+        "modelo": ["AD1/ AD2"]
+    }               
+}
