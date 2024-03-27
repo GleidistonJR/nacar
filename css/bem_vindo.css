@@ -1,0 +1,39 @@
+.bem_vindo {
+    background-color: var(--amarelo);
+}
+
+.bem_vindo .row {
+    padding: 60px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.bem_vindo .row h2 {
+    color: var(--cinza-escuro);
+}
+
+.bem_vindo .row p {
+    color: var(--cinza-escuro);
+}
+
+.bem_vindo .row .btn-orcamento {
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+    color: var(--cinza-escuro);
+    padding: 5px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bem_vindo .row .btn-orcamento:hover {
+    color: var(--amarelo-escuro);
+}
+
+@media (max-width:720px) {
+    .bem_vindo .row .btn-orcamento {
+        background-color: white;
+        width: 60%;
+    }
+
+}

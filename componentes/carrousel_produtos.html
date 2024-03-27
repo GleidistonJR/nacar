@@ -1,0 +1,52 @@
+<section class="mais-produtos container-fluid">
+    <article class="row">
+        <div class="txt col-md-10">
+            <h2>Produtos</h2>
+            <p>Oferecemos o melhor em automação industrial, e para isso além de vasta experiência nesse mercado,
+                contamos com os melhores fabricantes de equipamentos e peças de reposição. <br>
+            </p>
+        </div>
+        <aside class="col-md-10 carrousel">
+            <div class="swiper carrousel-produtos">
+                <div class="swiper-wrapper">
+
+
+                    <?php
+            
+                    $pastas = array("data/produtos/");
+
+                    foreach ($pastas as $pasta) {
+                        $arquivos = glob("$pasta{*.json}",  GLOB_BRACE);
+        
+                        foreach ($arquivos as $arquivo) {
+                            $produto = json_decode(file_get_contents($arquivo), true);
+
+                echo '                
+                
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="' . $produto["imagem-principal"] . '" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">' . $produto["titulo"] . '</h5>
+                                <p class="card-text">' . $produto["categoria"] . '</p>
+                                <a href="produto.php?produto='. $produto["url"] . '" class="ver_mais">Ver Mais Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                ';
+            }}
+            ?>
+
+
+
+
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </aside>
+
+    </article>
+</section>

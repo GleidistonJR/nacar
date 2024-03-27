@@ -1,64 +1,57 @@
-main.container-fluid{
-    padding: 0;
-    margin: 0;
-    margin-top: 150px;
-    width: 100%;
+
+@font-face {
+    font-family: 'lemon' ;
+    src: url(../fonts/LEMONMILK-Regular.otf);
 }
-main .txt-center{
-    text-align: center;
+@font-face {
+    font-family: 'roboto' ;
+    src: url(../fonts/Roboto-Regular.ttf);
 }
-main .row{
-    width: 100%;
+@font-face {
+    font-family: 'bebas' ;
+    src: url(../fonts/BebasNeue-Regular.ttf);
 }
-main h1{
-    font-size: 2.5em;
+@font-face {
+    font-family: 'nexa' ;
+    src: url(../fonts/Nexa-Heavy.ttf);
+}
+@font-face {
+    font-family: 'bold' ;
+    src: url(../fonts/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+}
+@font-face {
+    font-family: 'head' ;
+    src: url(../fonts/HeadingNowTrial-04Regular.ttf);
+}
+@font-face {
+    font-family: 'colvetica' ;
+    src: url(../fonts/coolvetica\ rg.otf);
+}
+:root{
+    --amarelo-claro: #fffcf1;
+    --amarelo: #f00909;
+    --amarelo-escuro: #aa1c1c;
+    --cinza-escuro:#252323;
+    --cinza-medio:#6b6b6d;
+    --cinza-claro:#a1a1a3;
+    --cinza-fundo:#ebebeb;
 }
 
-
-main .row-prod {
-    width: 80%;
-    padding: 50px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-main .row .card {
-    width: 18%;
-    margin: 30px;
-}
-main .row .card .card-body{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-main .row .card .card-body p{
-    margin-bottom: 5px;
-}
-main .row .card .card-body p b{
-    font-size: 1.1em;
-    color: #000;
-}
-
-main .filtro  {
-    width: 100%;
-    text-align: center;
-    background-color: #ddd;
-    margin-top: 50px;
-}
-main .filtro a {
-    font-size: 1.3em;
-    color: #000;
+*{
+    padding: 0 ;
+    margin: 0 ;
     text-decoration: none;
-    padding: 0 30px;
+    font-family: 'roboto' !important;
 }
-main  a {
-    color: #000;
-    font-size: 1.1em;
+a{
+    font-family: 'bebas' !important;
+
+}
+h2{
+    font-family: 'colvetica' !important;
+    color: var(--cinza-escuro);
 }
 
-
-@media (max-width:720px){
-    .aparecer-filtro{
-        display: flex !important;
-    }
+p{
+    font-family: 'roboto' !important;
 }

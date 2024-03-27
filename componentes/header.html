@@ -1,0 +1,60 @@
+<header class="header container-fluid">
+    <nav class="row">
+
+
+        <div class="col col-md-4 links">
+            <div class="col-8">
+                <a href="index.php">Início</a>
+                <a href="#">Empresa</a>
+                <a href="#">Serviços</a>
+                <a href="produtos.php?filtro=todos">Produtos</a>
+            </div>
+
+        </div>
+
+        <div class="col col-6 col-md-4 logo">
+            <a href="index.php"><img height="60" src="imgs/logo/logo.png" alt="Logo"></a>
+        </div>
+
+        <ul class="d-none d-md-flex col-md-4">
+            <li><a href="https://www.instagram.com/vinhalengenharia/" target="_blank"><i
+                        class="bi bi-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/vinhalengenharia/" target="_blank"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li><a href="https://wa.me//5563981393300?" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+
+
+
+        <div class="col-6 col-hamburger">
+            <img src="imgs/icons/hamburger.png" id="hamburguer">
+        </div>
+
+        <div class="col col-12 links-mob" id="nav-mobile">
+            <a href="index.php">Início</a>
+            <a href="#">Empresa</a>
+            <a href="#">Serviços</a>
+            <a href="produtos.php?filtro=todos">Produtos</a>
+            <ul>
+                <li><a href="https://www.instagram.com/vinhalengenharia/" target="_blank"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/vinhalengenharia/" target="_blank"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li><a href="https://wa.me//5563981393300?" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<script>
+
+    var hamburguer = document.getElementById('hamburguer')
+    var navmobile = document.getElementById('nav-mobile')
+
+    hamburguer.addEventListener('click', animarMenu)
+
+    function animarMenu() {
+        navmobile.classList.toggle('aparecerHamburguer')
+
+    }
+</script>
