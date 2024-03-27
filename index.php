@@ -48,7 +48,7 @@
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-        },
+        },        
     });
 
     var swiper_empresa = new Swiper(".carrousel-produtos", {

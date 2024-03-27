@@ -13,10 +13,10 @@
 
 .swiper-button-next,
 .swiper-button-prev{
-    color: var(--amarelo);
+    color: var(--cor1);
 }
 .swiper-pagination-bullet-active {
-    background-color: var(--amarelo);
+    background-color: var(--cor1);
 }
 .slide-home .swiper-button-next,
 .swiper-button-prev{

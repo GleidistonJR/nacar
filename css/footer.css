@@ -23,8 +23,11 @@
     margin: 0;
     padding: 0;
 }
+.footer .row ul li a{
+    font-size: 1.1em;
+}
 .footer .row ul li a:hover{
-    color: var(--cinza-claro);
+    color: var(--cor1);
 }
 .footer .row .links-rapidos ul li{
     margin-top: 6px;
@@ -52,6 +55,12 @@
         justify-content: space-around;
     }
 
+    .footer .row .logo{
+        width: 100%;
+    }
+    .footer .row .logo img{
+        max-width: 65%;
+    }
     .footer .row .links{
         display: flex;
         flex-direction: row;

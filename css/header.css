@@ -36,13 +36,14 @@
 
 .header .row .col a {
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 5px 20px;
-    color: var(--cinza-medio);
+    color: var(--cinza-escuro);
+    font-family: "roboto" !important;
 }
 
 .header .row .col a:hover {
-    color: var(--cinza-claro);
+    color: var(--cor1);
 }
 
 .header ul{
@@ -73,11 +74,18 @@
 @media (max-width: 1450px) {
     .header .row .col a {
         text-decoration: none;
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin: 5px 8px;
-        color: var(--cinza-medio);
     }
 }
+@media (max-width: 1150px) {
+    .header .row .col a {
+        text-decoration: none;
+        font-size: 1.0em;
+        margin: 5px 6px;
+    }
+}
+
 @media (max-width: 720px) {
     .header .links {
         display: none !important;

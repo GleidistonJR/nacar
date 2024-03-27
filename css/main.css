@@ -28,13 +28,15 @@
     src: url(../fonts/coolvetica\ rg.otf);
 }
 :root{
-    --amarelo-claro: #fffcf1;
-    --amarelo: #f00909;
-    --amarelo-escuro: #aa1c1c;
+    --cor1-claro: #fffcf1;
+    --cor1: #f00909;
+    --cor1-escuro: #aa1c1c;
     --cinza-escuro:#252323;
     --cinza-medio:#6b6b6d;
     --cinza-claro:#a1a1a3;
     --cinza-fundo:#ebebeb;
+    --branco-titulo:#fefefe;
+    --branco-paragrafo:#eee;
 }
 
 *{

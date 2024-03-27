@@ -1,5 +1,5 @@
 .bem_vindo {
-    background-color: var(--amarelo);
+    background-color: var(--cor1);
 }
 
 .bem_vindo .row {
@@ -9,11 +9,11 @@
 }
 
 .bem_vindo .row h2 {
-    color: var(--cinza-escuro);
+    color: var(--branco-titulo);
 }
 
 .bem_vindo .row p {
-    color: var(--cinza-escuro);
+    color: var(--branco-paragrafo);
 }
 
 .bem_vindo .row .btn-orcamento {
@@ -27,7 +27,7 @@
 }
 
 .bem_vindo .row .btn-orcamento:hover {
-    color: var(--amarelo-escuro);
+    color: var(--cor1-escuro);
 }
 
 @media (max-width:720px) {

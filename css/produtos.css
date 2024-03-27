@@ -37,7 +37,7 @@
     width: 33%;
     height: 3px;
     border-radius: 30px;
-    background-color: var(--amarelo);
+    background-color: var(--cor1);
 }*/
 
 
@@ -59,7 +59,7 @@
 }
 
 .produtos a {
-    color: var(--amarelo-escuro);
+    color: var(--cor1-escuro);
     text-decoration: none;
 }
 

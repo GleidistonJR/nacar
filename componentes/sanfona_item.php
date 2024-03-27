@@ -50,7 +50,7 @@ if ($desc["representada"] == "schulz") {
                 <img src="' . $desc["txt2"] . '" width="100%" alt="">
             </div>
             <div class="modal-footer">
-            <a href="' . $desc["txt2"] . '" target="_blank" class="btn-amarelo">Ver em guia separada</a>
+            <a href="' . $desc["txt2"] . '" target="_blank" class="btn-cor1">Ver em guia separada</a>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
             </div>
         </div>

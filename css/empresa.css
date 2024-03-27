@@ -34,7 +34,7 @@
     width: 33%;
     height: 3px;
     border-radius: 30px;
-    background-color: var(--amarelo);
+    background-color: var(--cor1);
 }
 
 .empresa .row p {

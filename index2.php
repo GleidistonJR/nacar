@@ -124,7 +124,7 @@ $filtro = $_GET["filtro"];
                                                 </p>   
                                             </div>
                                             <div class="modal-footer">
-                                            <a href="' . $produto["info"]["img"] . '" target="_blank" class="btn-amarelo">Ver em guia separada</a>
+                                            <a href="' . $produto["info"]["img"] . '" target="_blank" class="btn-cor1">Ver em guia separada</a>
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
                                             </div>
                                         </div>

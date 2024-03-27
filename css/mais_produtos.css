@@ -19,7 +19,7 @@
 }
 
 .mais-produtos .row .txt h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: var(--cinza-escuro);
     margin-top: 200px;
     position: relative;
@@ -35,7 +35,7 @@
     width: 33%;
     height: 3px;
     border-radius: 30px;
-    background-color: var(--amarelo);
+    background-color: var(--cor1);
 }
 
 .mais-produtos .row p {
@@ -45,18 +45,57 @@
 
 .mais-produtos .row .card {
     margin: 30px;
+    height: 480px;
+}
+.mais-produtos .row .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .mais-produtos a {
-    color: var(--amarelo-escuro);
+    color: var(--cor1-escuro);
     text-decoration: none;
+    font-size: 1.3em;
 }
 
-
+@media (max-width: 1600px) {
+    .mais-produtos .row .card {
+        height: 400px;
+    }
+}
+@media (max-width: 1400px) {
+    .mais-produtos .row .card {
+        height: 380px;
+    }
+}
+@media (max-width: 1366px) {
+    .mais-produtos .row .card {
+        height: 450px;
+    }
+}
+@media (max-width: 1200px) {
+    .mais-produtos .row .card {
+        height: 400px;
+    }
+}
+@media (max-width: 1000px) {
+    .mais-produtos .row .card {
+        height: 360px;
+    }
+    .mais-produtos p {
+        font-size: 1.1em;
+        
+    }
+    .mais-produtos a {
+        font-size: 1.1em;
+    }
+    
+}
 
 @media (max-width: 720px) {
     .mais-produtos .row .txt h2 {
-        font-size: 2em;
+        font-size: 3em;
         margin-top: 100px;
     }
 
@@ -67,15 +106,15 @@
         margin: 10px 0 40px 0;
     }
     .mais-produtos .row p {
-        font-size: 1em;
+        font-size: 1.1em;
         text-align: center;
         margin-bottom: 5px;
     }
 
     .mais-produtos .row .card .card-body{
-        padding: 10px 0;
+        padding: 10px 3px;
     }
     .mais-produtos .row .card .card-body a {
-        font-size:0.8em;
+        font-size:1.3em;
     }
 }

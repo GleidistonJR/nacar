@@ -42,7 +42,7 @@ $desc = json_decode(file_get_contents("./data/produtos/" . $prod . ".json"), tru
                 if ($desc["sanfona"] == "true")
                     include_once("componentes/sanfona_item.php");
                 echo ('
-                <a href="' . $desc["pdf"] . '" target="_blank" class="btn-orcamento-amarelo">Baixar PDF</a>
+                <a href="' . $desc["pdf"] . '" target="_blank" class="btn-orcamento-cor1">Baixar PDF</a>
                 ')
                 ?>
 
