@@ -40,7 +40,7 @@
     background-color: var(--cor1);
     
 }
-.produto .col-txt .subtitulo{
+.produto .col-txt .descricao{
     font-size: 1.2em;
     margin-bottom: 80px;
 }

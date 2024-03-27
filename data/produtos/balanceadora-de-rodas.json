@@ -3,6 +3,7 @@
     "titulo": "Balanceadora de rodas",
     "imagem-principal":"imgs/balanceadora-de-rodas.jpg",
     "categoria-filtro": "balanceador",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
     "codigo": ["2233"],
     "info": {
         "img" : "imgs/info/info-balanceadora-de-rodas.png",

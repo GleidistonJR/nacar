@@ -57,17 +57,20 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding: 5px;
 }
 
 .produtos a {
-    color: var(--cor1-escuro);
     text-decoration: none;
 }
 .produtos .row .card .card-body>*{
     color: var(--cinza-escuro);
 }
+.produtos .row .card .card-body p{
+    margin-bottom: 3px;
+}
 .produtos .row .card .card-body .btn-variacoes{
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: var(--cor1);
 }
 .produtos .row .card .card-body .btn-variacoes:hover{

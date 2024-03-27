@@ -35,22 +35,13 @@ $desc = json_decode(file_get_contents("./data/produtos/" . $prod . ".json"), tru
                     <h2 class="titulo"><?php echo $desc["titulo"]; ?></h2>
                     <h3 class="categoria"><?php echo $desc["categoria"]; ?></h3>
                 </div>
-                <p class="subtitulo"><?php echo $desc["subtitulo"]; ?></p>
-                
-
-                <?php
-                if ($desc["sanfona"] == "true")
-                    include_once("componentes/sanfona_item.php");
-                echo ('
-                <a href="' . $desc["pdf"] . '" target="_blank" class="btn-orcamento-cor1">Baixar PDF</a>
-                ')
-                ?>
-
+                <p class="descricao"><?php echo $desc["descricao"]; ?></p>
             </aside>
         </article>
 
     </section>
     <?php
+
 
 
 
