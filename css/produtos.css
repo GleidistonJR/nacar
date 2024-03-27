@@ -13,8 +13,9 @@
 .filtro .col-filtro a {
     padding: 15px 30px;
     margin: 10px;
-    color: #444;
+    color: var(--cor1);
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 .produtos {
@@ -61,6 +62,17 @@
 .produtos a {
     color: var(--cor1-escuro);
     text-decoration: none;
+}
+.produtos .row .card .card-body>*{
+    color: var(--cinza-escuro);
+}
+.produtos .row .card .card-body .btn-variacoes{
+    font-size: 1.2em;
+    color: var(--cor1);
+}
+.produtos .row .card .card-body .btn-variacoes:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 @media (max-width:1450px) {

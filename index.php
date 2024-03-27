@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinhal Máquinas</title>
-    <link rel="shortcut icon" href="./imgs/logo/favicon.bmp" type="image/x-icon">
+    <title>Nacar Equipamentos</title>
+    <link rel="shortcut icon" href="./imgs/logo/icon.png" type="image/x-icon">
 
     <!-- Incluindo CSS-->
     <?php include_once("componentes/include_css.html") ?>

@@ -11,7 +11,7 @@ $filtro = $_GET["filtro"];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinhal | Produtos</title>
+    <title>Nacar | Produtos</title>
     <link rel="shortcut icon" href="./imgs/logo/favicon.bmp" type="image/x-icon">
 
     <!-- Incluindo CSS-->
@@ -118,7 +118,7 @@ $filtro = $_GET["filtro"];
                                                     </p>   
                                                 </div>
                                                 <div class="modal-footer">
-                                                <a href="' . $produto["info"]["img"] . '" target="_blank" class="btn-cor1">Ver em guia separada</a>
+                                                <a href="' . $produto["info"]["img"] . '" target="_blank" class="btn-variacoes">Ver em guia separada</a>
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
                                                 </div>
                                             </div>

@@ -11,6 +11,9 @@
     justify-content: center;
     align-items: center;
 }
+.footer .row .logo img{
+    width: 80%;
+}
 .footer .row .links{
     display: flex;
     flex-direction: column;

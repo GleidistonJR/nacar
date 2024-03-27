@@ -8,7 +8,7 @@
     top: 0;
     z-index: 13;
     background-color: #fff;
-    box-shadow: 1px 0px 2px var(--cinza-claro);
+    box-shadow: 1px 0px 2px var(--cor1);
 }
 
 .header .row {
@@ -42,8 +42,8 @@
     font-family: "roboto" !important;
 }
 
-.header .row .col a:hover {
-    color: var(--cor1);
+.header .row a:hover {
+    color: var(--cor1-escuro);
 }
 
 .header ul{
