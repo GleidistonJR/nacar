@@ -1,0 +1,12 @@
+{
+    "url": "desmontadora-de-rodas-nacar",
+    "titulo": "Desmontadora de rodas nacar - NA 256T",
+    "imagem-principal":"imgs/produtos/desmontadora-de-rodas-nacar.jpg",
+    "categoria-filtro": "aaa",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
+    "codigo": ["2302"],
+    "info": {
+        "img" : "imgs/info/desmontadora-de-rodas-nacar.jpg",
+        "modelo": ["NA 256T"]
+    }               
+}

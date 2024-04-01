@@ -1,12 +1,12 @@
 {
-    "url": "bico-inflador-com-presilha-sem-retencao",
-    "titulo": "Bico inflador com presilha sem retencao",
-    "imagem-principal":"imgs/produtos/bico-inflador-com-presilha-sem-retencao.jpg",
-    "categoria-filtro": "adaptador",
+    "url": "destalonador-para-pneus",
+    "titulo": "Destalonador para pneus",
+    "imagem-principal":"imgs/produtos/destalonador-para-pneus.jpg",
+    "categoria-filtro": "aaa",
     "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
-    "codigo": ["1490"],
+    "codigo": ["2594"],
     "info": {
         "img" : "",
-        "modelo": ["AC 02L"]
+        "modelo": [""]
     }               
 }

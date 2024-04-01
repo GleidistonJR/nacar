@@ -30,7 +30,7 @@ $filtro = $_GET["filtro"];
             <nav class="col-12 col-md-12 col-filtro d-none d-md-block " id="nav-filtro">
             <a href="?filtro=todos">Todos</a>
                     <a href="?filtro=adaptador">Adaptador</a>
-                    <a href="?filtro=balanceador">Balanceador</a>
+                    <a href="?filtro=balanceamento">Balanceamento</a>
             </nav>
         </article>
     <section class="produtos container-fluid">

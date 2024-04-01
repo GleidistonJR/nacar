@@ -1,12 +1,12 @@
 {
-    "url": "balanceadora-de-rodas",
+    "url": "balanceadora-de-rodas2",
     "titulo": "Balanceadora de rodas",
-    "imagem-principal":"imgs/produtos/balanceadora-de-rodas.jpg",
+    "imagem-principal":"imgs/produtos/balanceadora-de-rodas2.jpg",
     "categoria-filtro": "balanceamento",
     "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
-    "codigo": ["2233"],
+    "codigo": ["2268"],
     "info": {
-        "img" : "imgs/info/balanceadora-de-rodas.jpg",
+        "img" : "imgs/info/balanceadora-de-rodas2.jpg",
         "modelo": ["NA 520"]
     }               
 }

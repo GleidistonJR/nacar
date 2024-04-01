@@ -1,0 +1,12 @@
+{
+    "url": "assentador-de-talao-pneus",
+    "titulo": "Assentador de talao pneus",
+    "imagem-principal":"imgs/produtos/assentador-de-talao-pneus.jpg",
+    "categoria-filtro": "aaa",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
+    "codigo": ["1631"],
+    "info": {
+        "img" : "imgs/info/assentador-de-talao-pneus.jpg",
+        "modelo": ["ET 18L"]
+    }               
+}
