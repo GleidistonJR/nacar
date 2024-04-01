@@ -1,0 +1,12 @@
+{
+    "url": "macaco-hidraulico-02-ton",
+    "titulo": "Macacos hidráulicos ton",
+    "imagem-principal":"imgs/produtos/macaco-hidraulico-02-ton.jpg",
+    "categoria-filtro": "aaa",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
+    "codigo": ["2276","..."],
+    "info": {
+        "img" : "imgs/info/macaco-hidraulico-ton.jpg",
+        "modelo": [""]
+    }               
+}

@@ -1,0 +1,12 @@
+{
+    "url": "instalador-de-refil-cabo-metal",
+    "titulo": "Instalador de refil cabo metal",
+    "imagem-principal":"imgs/produtos/instalador-de-refil-cabo-metal.jpg",
+    "categoria-filtro": "aaa",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
+    "codigo": ["1630"],
+    "info": {
+        "img" : "",
+        "modelo": ["671A"]
+    }               
+}

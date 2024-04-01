@@ -1,12 +1,12 @@
 {
-    "url": "aaa",
-    "titulo": "aaa",
-    "imagem-principal":"aaa",
+    "url": "espatula-chata-longa-27x10x600-mm-para-desmontar-pneus",
+    "titulo": "Espátula chata longa 27x10x600 mm para desmontar pneus",
+    "imagem-principal":"imgs/produtos/espatula-chata-longa-27x10x600-mm-para-desmontar-pneus.jpg",
     "categoria-filtro": "aaa",
     "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
-    "codigo": ["aaa"],
+    "codigo": ["2567"],
     "info": {
         "img" : "",
-        "modelo": ["aaa"]
+        "modelo": ["E24"]
     }               
 }

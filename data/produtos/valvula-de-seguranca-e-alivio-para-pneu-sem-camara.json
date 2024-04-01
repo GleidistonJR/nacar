@@ -1,0 +1,12 @@
+{
+    "url": "valvula-de-seguranca-e-alivio-para-pneu-sem-camara",
+    "titulo": "Válvula de segurança e alivio para pneu sem câmara",
+    "imagem-principal":"imgs/produtos/valvula-de-seguranca-e-alivio-para-pneu-sem-camara.jpg",
+    "categoria-filtro": "aaa",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
+    "codigo": ["1649","..."],
+    "info": {
+        "img" : "imgs/info/valvula-de-seguranca-e-alivio-para-pneu-sem-camara.jpg",
+        "modelo": [""]
+    }               
+}
