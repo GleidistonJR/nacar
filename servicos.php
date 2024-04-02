@@ -35,8 +35,6 @@
     include_once("componentes/bem_vindo.html");
 
     include_once("componentes/footer.html");
-
-    include_once("componentes/whatsapp.html");
     ?>
 </body>
 

@@ -28,15 +28,13 @@
     include_once("componentes/mapa.html");
 
     include_once("componentes/footer.html");
-
-    include_once("componentes/whatsapp.html");
     ?>
 </body>
 
 <script>
     const swiper = new Swiper('.slide-home', {
-        slidesPerView: 1.5,
-        spaceBetween: 30,
+        slidesPerView: 1,
+        spaceBetween: 20,
         loop: true,
         centeredSlides: true,
         autoplay: true,
@@ -48,7 +46,13 @@
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-        },        
+        },   
+        breakpoints: {
+            720: {
+                slidesPerView: 1.3,
+                spaceBetween: 30
+            },
+        }     
     });
 
     var swiper_empresa = new Swiper(".carrousel-produtos", {

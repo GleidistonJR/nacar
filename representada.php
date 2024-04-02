@@ -77,7 +77,6 @@ $desc = json_decode(file_get_contents("./data/representada/" . $prod . ".json"),
 
     include_once("componentes/footer.html");
 
-    include_once("componentes/whatsapp.html");
     ?>
 </body>
 

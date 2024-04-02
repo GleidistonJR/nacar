@@ -1,8 +1,8 @@
 {
     "url": "conjunto-para-preparacao-de-ar",
-    "titulo": "Conjunto para preparacao de ar",
+    "titulo": "Conjunto para preparação de ar",
     "imagem-principal":"imgs/produtos/conjunto-para-preparacao-de-ar.jpg",
-    "categoria-filtro": "aaa",
+    "categoria-filtro": "ferramentas",
     "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vero necessitatibus quidem rem neque dolores minus quaerat! Modi, atque vero. Magni maxime magnam facere praesentium, labore sequi reiciendis at porro.",
     "codigo": ["2281","2280"],
     "info": {

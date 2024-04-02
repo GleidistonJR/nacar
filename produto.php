@@ -35,17 +35,59 @@ $desc = json_decode(file_get_contents("./data/produtos/" . $prod . ".json"), tru
                     <h2 class="titulo"><?php echo $desc["titulo"]; ?></h2>
                     <h3 class="categoria"><?php echo $desc["categoria"]; ?></h3>
                 </div>
-                <p class="descricao"><?php echo $desc["descricao"]; ?></p>
+
+                <?php 
+                    if($desc["codigo"]){
+                        echo '
+                        <p class="descricao"><b>Codigo:</b></p>
+                        <p class="descricao">
+                        ';
+                        foreach($desc["codigo"]as $chave){
+                            echo "$chave\n";
+                        }
+                        echo '
+                            </p>
+                        ';
+                    }   
+                ?>
+
+
+                <?php 
+                    if($desc["info"]["img"]){
+                        echo '
+                            <p class="descricao"><b>Informações:</b></p>
+                            <img src="' . $desc["info"]["img"] . '" width="50%" alt="Informações ' . $desc["nome"] . '">
+                        ';
+                    }   
+                ?>  
+
+
+                <?php 
+                    if($desc["info"]["modelo"][0]){
+                        echo '
+                        <p class="descricao"><b>Modelo:</b></p>
+                        <p class="descricao">
+                        ';
+                        foreach($desc["info"]["modelo"] as $chave){
+                            echo "$chave\n";
+                        }
+                        echo '
+                            </p>
+                        ';
+                    }   
+                ?> 
+                
+                                
+                
+                 
             </aside>
         </article>
 
     </section>
+    
     <?php
-
-
-
-
-    include_once($desc["mais"]);
+    
+    include_once("componentes/carrousel_produtos.html");
 
     include_once("componentes/bem_vindo.html");
 
@@ -56,7 +98,7 @@ $desc = json_decode(file_get_contents("./data/produtos/" . $prod . ".json"), tru
 </body>
 
 <script>
-    var swiper_empresa = new Swiper(".mais-produtos-slide", {
+    var swiper_empresa = new Swiper(".carrousel-produtos", {
         slidesPerView: 2,
         spaceBetween: 10,
         centeredSlides: true,
@@ -65,6 +107,7 @@ $desc = json_decode(file_get_contents("./data/produtos/" . $prod . ".json"), tru
         delay: 2000,
         pagination: {
             el: ".swiper-pagination",
+            dynamicBullets: true,
             clickable: true,
         },
         breakpoints: {

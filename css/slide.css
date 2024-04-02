@@ -26,3 +26,9 @@
     background-color: var(--cinza-medio);
 }
 
+@media (max-width:720px){
+
+    .slide-home{
+        margin-top: 95px;
+    }
+}

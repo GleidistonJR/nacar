@@ -29,8 +29,9 @@ $filtro = $_GET["filtro"];
             <a class='d-block d-md-none btn-filtro' id="btn-filtro" href="#" >Filtros <i class="bi bi-caret-down-fill"></i></a>
             <nav class="col-12 col-md-12 col-filtro d-none d-md-block " id="nav-filtro">
             <a href="?filtro=todos">Todos</a>
-                    <a href="?filtro=adaptador">Adaptador</a>
-                    <a href="?filtro=balanceamento">Balanceamento</a>
+                    <a href="?filtro=ferramentas">Ferramentas</a>
+                    <a href="?filtro=pecas">Peças</a>
+                    <a href="?filtro=maquinas">Máquinas</a>
             </nav>
         </article>
     <section class="produtos container-fluid">
@@ -53,7 +54,7 @@ $filtro = $_GET["filtro"];
                         echo '                
                         <div class="card">
                             <a href="produto.php?produto=' . $produto["url"] . '">
-                                <img src="' . $produto["imagem-principal"] . '" class="card-img-top" alt="imagem do ' . $produto["titulo"] . '">
+                                <img src="' . $produto["imagem-principal"] . '" class="card-img-top" alt="Imagem ' . $produto["titulo"] . '">
                                 <div class="card-body">
                                     <h5 class="card-title">' . $produto["titulo"] . '</h5>
                                     
@@ -74,7 +75,7 @@ $filtro = $_GET["filtro"];
     
                                     <p class="card-text">';
                                     
-                                    if(count($produto["info"]["modelo"]) <= 1 && !$produto["info"]["img"] ){
+                                    if($produto["info"]["modelo"][0] && count($produto["info"]["modelo"]) <= 1 && !$produto["info"]["img"] ){
                                         echo '<b>Modelo:</b><br>';    
                                         echo $produto["info"]["modelo"][0];    
                                     }
@@ -102,18 +103,22 @@ $filtro = $_GET["filtro"];
                                                         echo '
                                                         <img src="' . $produto["info"]["img"] . '" width="100%" alt="Informações">';
                                                     };
-                                                    echo '
-                                                    <p class="card-text"><b>Modelos:</b><br>';
-                                                    
-                                                    if(count($produto["info"]["modelo"]) <= 1){
-                                                        echo $produto["info"]["modelo"][0];    
-                                                    }
-                                                    else{
-                                                        foreach($produto["info"]["modelo"] as $modelo){
-                                                            echo '<br>'; 
-                                                            echo $modelo; 
+                                                    if($produto["info"]["modelo"][0]){
+                                                        echo '
+                                                        <p class="card-text"><b>Modelos:</b><br>';
+                                                        
+                                                        if(count($produto["info"]["modelo"]) <= 1){
+                                                            echo $produto["info"]["modelo"][0];    
                                                         }
-                                                    };
+                                                        else{
+                                                            foreach($produto["info"]["modelo"] as $modelo){
+                                                                echo '<br>'; 
+                                                                echo $modelo; 
+                                                            }
+                                                        };
+                                                        echo '
+                                                        </p>';
+                                                    }
                                                     echo '   
                                                     </p>   
                                                 </div>
@@ -147,8 +152,6 @@ $filtro = $_GET["filtro"];
 
     <?php
     include_once("componentes/footer.html");
-
-    include_once("componentes/whatsapp.html");
     ?>
 
 
